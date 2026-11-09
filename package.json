@@ -1,0 +1,24 @@
+{
+  "name": "dsh-session-admin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Session archive tools: archive or unarchive a session by id, and list stored sessions with archived flag and size.",
+  "license": "MIT",
+  "author": "wdz211",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdz211/dsh-session-admin.git"
+  },
+  "homepage": "https://github.com/wdz211/dsh-session-admin#readme",
+  "bugs": {
+    "url": "https://github.com/wdz211/dsh-session-admin/issues"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js"
+  ]
+}
